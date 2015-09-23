@@ -78,14 +78,14 @@
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="container">
+        <div class="container top-buffer">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Me</h2>
-                    <h4 class="section-subheading text-muted subheading">Now I am actively looking for a full-time position</h4>
-                    <h4 class="section-subheading text-muted subheading">in Software Development/Engineering related field</h4>
-                    <h4 class="section-subheading text-muted subheading">starting from Jan 2016.</h4>
-                    <h4 class="section-subheading text-muted subheading">If you are interested, feel free to contact me!</h4>
+                    <h1 class="section-heading">Contact Me</h1>
+                    <h4 class="section-heading text-muted subheading">Now I am actively looking for a full-time position</h4>
+                    <h4 class="section-heading text-muted subheading">in Software Development/Engineering related field</h4>
+                    <h4 class="section-heading text-muted subheading">starting from Jan 2016.</h4>
+                    <h4 class="section-heading text-muted subheading">If you are interested, feel free to contact me!</h4>
                 </div>
             </div>
             <div class="row">
@@ -115,7 +115,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Send</button>
                             </div>
                         </div>
                     </form>
@@ -128,10 +128,10 @@
     <footer class="text-center">
         <div class="container">
             <div class="row top-buffer">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <a href="mailto:tz2237@columbia.edu">Tian Zhang | tz2237@columbia.edu</a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         <li><a href="https://twitter.com/skyup0416"><i class="fa fa-twitter"></i></a>
                         </li>
@@ -143,6 +143,18 @@
                         </li>
                     </ul>
                 </div>
+                <div class="box">
+                    <div class="col-md-4">
+                        <a class="btn">
+                            <button onclick="myFunction()" type="submit" class="btn btn-xl">View My Resume</button>
+                        </a>
+                    </div>
+                </div> 
+                <script>
+                    function myFunction() {
+                    window.open("./Resume/Resume.pdf");
+                    }
+                </script>
             </div>
         </div>   
     </footer>
